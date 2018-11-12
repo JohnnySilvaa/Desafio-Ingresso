@@ -1,0 +1,17 @@
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { FilmeListaComponent } from './filme-lista.component';
+import { FilmeModule } from '../filme/filme.module';
+import { FilmesComponent } from './filmes/filmes.component';
+
+@NgModule({
+  declarations: [
+    FilmeListaComponent,
+    FilmesComponent
+  ],
+  imports: [
+    CommonModule,
+    FilmeModule
+  ]
+})
+export class FilmeListaModule { }

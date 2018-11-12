@@ -5,16 +5,22 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { CoreModule } from './core/core.module';
+import { FilmesModule } from './filmes/filmes.module';
+import { HomeModule } from './home/home.module';
+import { ErrorsModule } from './errors/errors.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CoreModule
+    CoreModule,
+    FilmesModule,
+    HomeModule,
+    ErrorsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
