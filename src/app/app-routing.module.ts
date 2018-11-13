@@ -17,7 +17,7 @@ const routes: Routes = [
     component: FilmeListaComponent
   },
   { 
-    path: 'filme-form', 
+    path: 'filme-lista/filme-form', 
     component: FilmeFormComponent,
   },
 

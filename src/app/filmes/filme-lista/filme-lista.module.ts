@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FilmeListaComponent } from './filme-lista.component';
 import { FilmeModule } from '../filme/filme.module';
 import { FilmesComponent } from './filmes/filmes.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -11,7 +12,8 @@ import { FilmesComponent } from './filmes/filmes.component';
   ],
   imports: [
     CommonModule,
-    FilmeModule
+    FilmeModule,
+    RouterModule
   ]
 })
 export class FilmeListaModule { }
